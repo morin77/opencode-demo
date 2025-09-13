@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>サンプルページ</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif;margin:2rem;background:#fafafa;color:#333;}
-        h1{color:#4a90e2;font-size:2.5rem;margin-bottom:0.5rem;}
-        p{line-height:1.6;font-size:1rem;}
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4;}
+    header{background:#333;color:white;padding:20px;text-align:center;}
+    nav a{color:white;margin:0 10px;text-decoration:none;}
+    main{padding:20px;max-width:800px;margin:auto;background:white;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,.1);}
+    section{margin-bottom:40px;}
+    h2{border-bottom:2px solid #333;padding-bottom:5px;}
+    footer{text-align:center;padding:10x;background:#333;color:white;font-size:.9em;}
+  </style>
 </head>
 <body>
-    <h1>ようこそ！</h1>
-    <p>これは簡単なサンプルHTMLページです。ここにコンテンツを追加して、プロジェクトのデモとして使用してください。</p>
+<header>
+  <h1>John Doe</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m a software developer with a passion for building clean, efficient web applications. I enjoy working with JavaScript, Python, and cloud technologies.</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Site</strong> – A responsive personal website built with HTML, CSS, and vanilla JS.</li>
+      <li><strong>Todo App</strong> – A simple task manager using React and localStorage.</li>
+      <li><strong>API Service</strong> – RESTful API for a blogging platform written in Node.js.</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: john.doe@example.com</p>
+  </section>
+</main>
+<footer>
+  © 2025 John Doe
+</footer>
 </body>
 </html>
